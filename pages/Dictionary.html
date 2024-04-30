@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dictionary App</title>
-    <link rel="stylesheet" href="../css/style.css">
+  <title>Dilli Raja Kethu</title>
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
 </head>
-
 <body>
-
+    
     <header>
-
-        <nav>
-            <p>Dictionary</p>
-
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./about.html">About</a></li>
-            </ul>
-        </nav>
+        <h1>Dictionary</h1>
+    
+    <nav><br>
+        <ul>      
+            <li><a href="../index.html">[Home]</a></li>
+            <li><a href="blog.html">[Blog]</a></li>
+            <li><a href="about.html">[About]</a></li>
+        </ul>
+    </br></nav>
     </header>
+    <div class="search-container">
+    <div class="search-form">
+    <input type="text" id="search-input" placeholder="Enter text........!">
+    
+</div>
+    </div>
+</div>
+<main>
+    <ul id="result-list"></ul>
 
-    <main>
-        <div id="inputBoxContainer">
-            <input type="text" id="inputBox" placeholder="Enter a word">
-        </div>
-        <ol id="nounList"></ol>
-    </main>
+</main>
+<script src="../js/dictionary.js"></script>
 
-    <script src="../js/dictionary.js"></script>
+
+    <footer>
+    <p>&copy; 2024 Harish Pallapu. All rights reserved.</p>
+  </footer>
 </body>
-
 </html>
